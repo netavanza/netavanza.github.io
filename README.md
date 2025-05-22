@@ -1,8 +1,8 @@
-# Netavanza Website
+# netavanza Website
 
-This repository hosts the official static website for **Netavanza**.
+This repository hosts the official static website for **netavanza**.
 
-Netavanza is an IT consulting company specializing in enhancing IT efficiency for businesses of all sizes. The live website can be accessed at: [https://netavanza.com](https://netavanza.com).
+netavanza is an IT consulting company specializing in enhancing IT efficiency for businesses of all sizes. The live website can be accessed at: [https://netavanza.com](https://netavanza.com).
 
 ## Services Offered
 
