@@ -6,19 +6,19 @@ netavanza is an IT consulting company specializing in enhancing IT efficiency fo
 
 ## Services Offered
 
-Netavanza provides a range of IT services, including:
+netavanza provides a range of IT services, including:
 
-*   Advising on cloud software tools such as Google Workspace, Microsoft 365, Salesforce, Basecamp, and Zendesk.
-*   Agile project management (SCRUM + KANBAN)
-*   API and SOA services
-*   BPO, CRM, ERP, PM tools
-*   Cloud infrastructure
-*   Database administration
-*   Digital signage
-*   Frontend / backend development
-*   IT Consulting
-*   Mobile development
-*   POS activation
+* Advising on cloud software tools such as Google Workspace, Microsoft 365, Salesforce, Basecamp, and Zendesk.
+* Agile project management (SCRUM + KANBAN)
+* API and SOA services
+* BPO, CRM, ERP, PM tools
+* Cloud infrastructure
+* Database administration
+* Digital signage
+* Frontend / backend development
+* IT Consulting
+* Mobile development
+* POS activation
 
 ## Content
 
@@ -26,8 +26,8 @@ The website content is primarily in `index.html` and styled using `assets/main.c
 
 ## Last Updated
 
-The content of the website was last updated on **March 7, 2025**.
+The content of the website was last updated on **November 11, 2025**.
 
 ---
 
-*This README was generated based on the analysis of the existing project files.*
+**This README was generated based on the analysis of the existing project files.**
