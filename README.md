@@ -32,10 +32,15 @@ netavanza provides a range of IT services, including:
 The website content is primarily in `index.html` and styled using `assets/main.css`.
 
 ## Last Updated
+ 
+The content of the website was last updated on **December 25, 2025**.
 
-The content of the website was last updated on **December 20, 2025**.
+## Recent Changes
+
+*   **Footer Reformatting**: Simplified the footer into a single line, removed the "Updated" date from the UI, and grouped legal links.
+*   **Documentation Cleanup**: Added comprehensive English comments to `index.html`, `es/index.html`, and `assets/main.css` for better maintainability.
+*   **Spanish Localization**: Refined the Spanish version and ensured language preference persistence.
 
 ---
 
 **This README was generated based on the analysis of the existing project files.**
-
