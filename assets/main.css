@@ -1,10 +1,16 @@
-/* Main body typography and colors */
+/* 
+   Global Styles
+   Main body typography and base colors 
+*/
 body {
   color: #63666A;
   font-family: "Verdana", "Arial", sans-serif;
 }
 
-/* Headings styles with padding for hierarchy */
+/* 
+   Typography: Headings and Paragraphs 
+   Maintain hierarchy with consistent padding and font sizes
+*/
 h1 {
   padding: 0.5em 0.5em 0.5em 1em;
   font-size: 20pt;
@@ -15,20 +21,21 @@ h2 {
   font-size: 16pt;
 }
 
-/* Base paragraph styling */
 p {
   padding: 0.5em 0.5em 0.5em 1.5em;
   font-size: 12pt;
 }
 
-/* Header branding container background */
+/* 
+   Layout Components: Header and Footer 
+   Sticky or fixed-width containers with brand colors
+*/
 header {
   border-radius: 3px;
   color: white;
   background-color: #f2b8b4;
 }
 
-/* Footer layout and legal text styling */
 footer {
   padding: 0.5em 0.5em 0.5em 1em;
   font-family: "Verdana", "Arial", sans-serif;
@@ -39,6 +46,15 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  /* Allow wrapping on very small screens */
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
 }
 
 .footer-logo {
@@ -47,7 +63,10 @@ footer {
   margin-left: 10px;
 }
 
-/* Inline code formatting for technical references */
+/* 
+   Code Snippets and Technical Content 
+   Formatting for inline and block-level code
+*/
 code {
   font-family: "Menlo Regular", "Consolas", "Monaco", monospace;
   color: #fff;
@@ -58,7 +77,6 @@ code {
   padding: 0.1em 0.25em;
 }
 
-/* Pre-formatted code blocks for larger snippets */
 pre code {
   background: #272822;
   display: block;
@@ -67,7 +85,9 @@ pre code {
   padding: 1em;
 }
 
-/* Hyperlink base and hover states */
+/* 
+   Interactive Elements: Links and Media
+*/
 a {
   color: #f2b8b4;
   text-decoration: underline;
@@ -78,13 +98,15 @@ a:hover {
   text-decoration: none;
 }
 
-/* Media handling for responsive images */
 img {
   max-width: 75%;
   height: auto;
 }
 
-/* Table layout and data cells */
+/* 
+   Data Presentation: Tables 
+   Clean borders and zebra striping for data density
+*/
 table {
   border-collapse: collapse;
 }
@@ -96,12 +118,14 @@ td {
   border: 2px solid white;
 }
 
-/* Zebra striping for improved table readability */
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-/* Alert box framework for highlighted information */
+/* 
+   UI Components: Alert Boxes 
+   Categorized feedback boxes (info, warning)
+*/
 .box {
   border: 1px solid #000;
   margin: 0 auto 15px;
@@ -109,14 +133,12 @@ tr:nth-child(even) {
   border-radius: 10px;
 }
 
-/* Info-style alerts (blue theme) */
 .info {
   color: #31708F;
   background-color: #D9EDF7;
   border-color: #BCE8F1;
 }
 
-/* Warning-style alerts (yellow theme) */
 .warning {
   color: #8A6D3B;
   background-color: #FCF8E3;
