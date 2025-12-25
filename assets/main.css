@@ -36,6 +36,15 @@ footer {
   border-radius: 3px;
   color: white;
   background-color: #f2b8b4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  height: 60px;
+  width: auto;
+  margin-left: 10px;
 }
 
 /* Inline code formatting for technical references */
