@@ -2,24 +2,43 @@
 <html lang="en">
 
 <head>
+  <!-- Basic page configuration and metadata -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>netavanza</title>
-  <meta name="description" content="add a description of your site here">
-  <meta name="keywords" content="add, some, keywords, you, want, here">
-  <link href="assets/main.css" rel="stylesheet">
-  <link rel="canonical" href="https://netavanza.com">
+
+  <!-- SEO and canonical link -->
   <meta name="description" content="Experts in IT efficiency.">
+  <meta name="keywords" content="it, consulting, efficiency, digital transformation, agile, architecture">
+  <link rel="canonical" href="https://netavanza.com">
+
+  <!-- Stylesheet and favicon configuration -->
+  <link href="assets/main.css" rel="stylesheet">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Automatic Language Detection Script -->
+  <script>
+    (function () {
+      // Detect browser language
+      const userLang = navigator.language || navigator.userLanguage;
+      // Check for user-set language preference in localStorage
+      const langPref = localStorage.getItem('lang-preference');
+
+      // If language is Spanish and no explicit English preference exists, redirect
+      if (userLang.startsWith('es') && langPref !== 'en') {
+        window.location.href = 'es/index.html';
+      }
+    })();
+  </script>
 </head>
 
 <body>
+  <!-- Header section - Logo and branding -->
   <div id="wrapper">
     <div id="main">
-      <!-- Header -->
       <section id="header">
         <header>
           <h1>netavanza</h1>
@@ -28,11 +47,14 @@
     </div>
   </div>
 
+  <!-- Primary Introduction -->
   <h1 id="introduction">Strategic IT Leadership and Enterprise Delivery Excellence.</h1>
 
+  <!-- Core value proposition -->
   <p>We drive digital transformation through expert Project Management, agile governance, and modern solution
     architecture. Master of enterprise ecosystems including Jira, ServiceNow, Salesforce, and SAP.</p>
 
+  <!-- Key services and domains -->
   <ul>
     <li>
       <p>Agile Transformation at Scale: SCRUM, Kanban, and SAFe implementation</p>
@@ -66,13 +88,15 @@
     </li>
   </ul>
 
-  <!--<p><center><img src="images/img-1.png"></center></p>-->
+  <!-- Contact and Social links -->
   <h1 id="conclusion">Contact</h1>
   <p>
     <a target="_blank" href="https://www.linkedin.com/in/gzapico/">Profile</a> /
     <a target="_blank" href="https://www.linkedin.com/company/netavanza/">LinkedIn</a> /
     <a target="_blank" href="mailto:hola@netavanza.com">hola@netavanza.com</a>
   </p>
+
+  <!-- Footnotes and credits -->
   <div class="footnotes">
     <hr />
     <ol>
@@ -82,6 +106,8 @@
       </li>
     </ol>
   </div>
+
+  <!-- Footer information: Last updated and legal links -->
   <footer>
     <p>
       Updated <strong>2025-12-20</strong> <br>
@@ -92,6 +118,11 @@
         style="color:#000;">Terms & Conditions</a>.
     </p>
   </footer>
+
+  <!-- Floating Language Selector -->
+  <div class="lang-selector">
+    <strong>English</strong> | <a href="es/index.html">Español</a>
+  </div>
 </body>
 
 </html>

@@ -1,8 +1,10 @@
+/* Main body typography and colors */
 body {
   color: #63666A;
-  font-family: "Verdana", "Arial";
+  font-family: "Verdana", "Arial", sans-serif;
 }
 
+/* Headings styles with padding for hierarchy */
 h1 {
   padding: 0.5em 0.5em 0.5em 1em;
   font-size: 20pt;
@@ -13,27 +15,30 @@ h2 {
   font-size: 16pt;
 }
 
+/* Base paragraph styling */
 p {
   padding: 0.5em 0.5em 0.5em 1.5em;
   font-size: 12pt;
 }
 
+/* Header branding container background */
 header {
   border-radius: 3px;
   color: white;
-  background-color: #f2b8b4
-
+  background-color: #f2b8b4;
 }
 
+/* Footer layout and legal text styling */
 footer {
   padding: 0.5em 0.5em 0.5em 1em;
-  font-family: "Verdana", "Arial";
+  font-family: "Verdana", "Arial", sans-serif;
   font-size: 6pt;
   border-radius: 3px;
   color: white;
-  background-color: #f2b8b4
+  background-color: #f2b8b4;
 }
 
+/* Inline code formatting for technical references */
 code {
   font-family: "Menlo Regular", "Consolas", "Monaco", monospace;
   color: #fff;
@@ -44,6 +49,7 @@ code {
   padding: 0.1em 0.25em;
 }
 
+/* Pre-formatted code blocks for larger snippets */
 pre code {
   background: #272822;
   display: block;
@@ -52,38 +58,41 @@ pre code {
   padding: 1em;
 }
 
+/* Hyperlink base and hover states */
 a {
   color: #f2b8b4;
-  /*font-weight; bold;*/
+  text-decoration: underline;
 }
 
 a:hover {
   color: #000;
+  text-decoration: none;
 }
 
+/* Media handling for responsive images */
 img {
   max-width: 75%;
-  /*max-width: 750px;*/
   height: auto;
 }
 
+/* Table layout and data cells */
 table {
-  border-collapse:collapse
+  border-collapse: collapse;
 }
 
-th, td {
-  padding: 0.0em 0.0em 0.0em 1em;
+th,
+td {
+  padding: 0.5rem 1rem;
   text-align: left;
   border: 2px solid white;
 }
 
+/* Zebra striping for improved table readability */
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-
-/*alert boxes*/
-/*styled after bootstrap alerts: https://www.w3schools.com/bootstrap/bootstrap_alerts.asp*/
+/* Alert box framework for highlighted information */
 .box {
   border: 1px solid #000;
   margin: 0 auto 15px;
@@ -91,14 +100,47 @@ tr:nth-child(even) {
   border-radius: 10px;
 }
 
+/* Info-style alerts (blue theme) */
 .info {
   color: #31708F;
   background-color: #D9EDF7;
-  border-color: #BCE8F1; 
+  border-color: #BCE8F1;
 }
 
+/* Warning-style alerts (yellow theme) */
 .warning {
   color: #8A6D3B;
   background-color: #FCF8E3;
-  border-color: #FAEBCC; 
+  border-color: #FAEBCC;
+}
+
+/* Floating Language Selector - Glassmorphism design */
+.lang-selector {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 8px 16px;
+  border-radius: 50px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(242, 184, 180, 0.3);
+  z-index: 1000;
+  font-size: 10pt;
+  font-family: "Verdana", "Arial", sans-serif;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Language selector links styling */
+.lang-selector a {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+/* Active/selected language styling in selector */
+.lang-selector strong {
+  color: #63666A;
+  font-weight: bold;
 }
